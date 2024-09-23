@@ -18,10 +18,12 @@
             const container = document.getElementById("player-container");
             container.appendChild(player);
             player.load("fe6_7chart.swf");  <!-- 替换为你的SWF文件路径 -->
+            player.style.width = "1600px";
+            player.style.height = "1200px";
         });
     </script>
     
-    <div id="player-container" style="width:800px; height:600px;">
+    <div id="player-container" style="width:1600px; height:1200px;">
         <p>Loading SWF...</p>
     </div>
 
